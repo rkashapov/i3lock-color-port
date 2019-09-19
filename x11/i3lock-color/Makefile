@@ -5,7 +5,7 @@ PORTNAME=	i3lock-color
 PORTVERSION=	2.12.c
 CATEGORIES=	x11
 MASTER_SITES=	https://github.com/PandorasFox/i3lock-color/archive/
-DISFILES = 2.12.c
+DISTFILES = ${PORTVERSION}${EXTRACT_SUFX}
 
 MAINTAINER=	hardtechnik91@gmail.com
 COMMENT=	Slightly improved screen locker based on slock
